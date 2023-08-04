@@ -1,0 +1,344 @@
+.zoom{
+    position: fixed;
+    z-index: 1035;
+    top: 0;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbard{background-color: #DAFBF0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  
+
+
+}
+
+  
+    
+.home{
+    color: black;
+    display: flex;
+    background-color:#DAFBF0 ;
+    padding: 10px;
+    margin-right:200px ;
+    margin-left: 30px;
+    border: solid #DAFBF0 2px;
+    justify-content:space-between ;
+    width: 18%;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: Home;
+    animation-duration: 2s;
+    flex-direction: row;
+
+   
+}   
+.cname{
+    margin-right: 70px;
+}
+
+
+@keyframes Home{
+    0%{
+        margin-top: -90px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+
+}
+.p:hover{
+
+ cursor: pointer;
+color:rgb(187, 16, 255);
+
+
+  
+    
+}
+.bott{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.pfyi{
+    margin-left: 8%;
+    font-size:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.sw{
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 15px;
+    cursor: pointer;
+
+       
+}
+.sw:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid black 2px;
+    color: black;
+    transition-duration: 1s;
+    
+}
+.swfull{
+margin-left: 8%;
+}
+.p1{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-left:40px ;
+    margin-right: 40px;
+    margin: 30px;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+
+.Product{
+    width: 260px;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+   font-size: 21px;
+   position: relative;
+   bottom: 35px;
+   
+   
+}  
+.backcolor{
+    background-color:#DAFBF0;
+    padding: 25px;
+    margin-top: -20px;
+    margin-bottom:-30px;
+   
+  }
+.rad{
+    border-radius: 10px;
+    filter: grayscale(100%);
+}
+.rad:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+    filter: grayscale(0%);
+}
+
+.cp{
+   
+    position:relative;
+    top: 60px;
+    
+     margin-bottom: 80px;
+    
+}
+.tsimg{
+    animation-name: ikbc;
+    animation-duration: 2s;
+    float: right;
+    margin: 20px;
+    margin-bottom: 10px;
+
+     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@keyframes ikbc{
+    0%{
+        margin-right: -500px;
+    }
+    100%{
+        margin-right: 20px;
+    }
+}
+   .Products{
+    margin-top:100px ;
+    position: relative;
+    bottom: 230px;
+   
+}
+.pro{
+    background-color: #DAFBF0;
+    margin-top: 0px;
+    padding-top: 1px;
+}
+.cname{
+    animation-name: cnani;
+    animation-duration: 2.5s;
+   }
+@keyframes cnani{
+    0%{
+    margin-left:-400px ;
+    }
+    100%{
+        margin-left: 0px;
+    }
+   }
+.bpar{
+    flex-wrap: wrap; font-family:  Arial, Helvetica, sans-serif; font-size:  20px;
+   text-align: center;
+    margin-top: -50px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+   
+}
+.bscontainerimg{
+    display: flex;
+    justify-content: space-evenly;
+   
+    flex-wrap: wrap;
+    text-align: center;
+  
+   
+    
+}
+.bs{
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+.bscontainerimg{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size:medium;
+    font-weight: 580;
+    padding-bottom: 160px;
+   
+    
+}
+.bsimg{
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    
+    cursor: pointer;
+   padding-bottom: 10px;
+
+}
+.bsimg:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+     .Aboutcontainer{
+        background-color: ;
+        padding-bottom: 100px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+   
+    
+     }
+     .Aboutbox{
+        flex-wrap: wrap;
+        border: solid 2px;
+       margin: 20px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+       font-size: 20px;
+      padding: 10px;
+      padding-bottom: 20px;
+      
+      
+       
+    
+     }
+     .about{
+       text-align: center;
+       padding-top: 15px;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+     .botpage{
+        margin-left: 30px;
+        font-size: larger;
+        padding-top: 90px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+     }
+     i{
+        color: black;
+        font-size: larger;
+        margin-bottom: 20px;
+        
+     }
+     .bottompage{
+        background-color:#DAFBF0;
+     }
+     .Clientbackcolor{
+        background-color:#DAFBF0;
+       margin-left: 20px;
+
+        padding-bottom: 300px;
+     }
+     .ilink{
+        width: 300px;
+        height: 400px;
+        float: left;
+        position: relative;
+        left: -20px;
+        top: -45px;
+        margin-right:80px ;
+     }
+     .clientwhat{
+        
+       padding-top: 60px;
+       font-size: 25px;
+       font-family: Arial, Helvetica, sans-serif;
+       flex-wrap: wrap;
+     }
+     .subscribecontainer{
+        text-align: center;
+        flex-wrap: wrap;
+        font-size: 20px;
+        
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .subbutton{
+        background-color: rgb(34, 33, 33);
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-color:rgb(36, 35, 35);
+        color: white;
+        margin-top: 15px;      
+
+    }
+    .subbutton:hover{
+        background-color: black;
+        cursor: pointer;
+    }
+    input{
+ border-color: black;
+
+width: 800px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 7px;
+
+display: flex;
+flex-wrap: wrap;
+width: 85%;
+margin: auto;
+margin-top: 10px;
+margin-bottom: -20px;
+
+ }
